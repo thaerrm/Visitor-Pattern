@@ -2,20 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7df5ca4b-4ac4-4649-b4e4-3d7f0f75c69f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ConcreteVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Element.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interfaces/Visiting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FloatElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FloatElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VisitFloat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VisitFloat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VisitString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VisitString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Visitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interfaces/Visitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FloatElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Patient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -41,6 +37,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Interfaces" />
+    </key>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -52,7 +53,7 @@
       <option name="presentableId" value="Default" />
       <updated>1587928315617</updated>
       <workItem from="1587928317148" duration="1538000" />
-      <workItem from="1587930112628" duration="439000" />
+      <workItem from="1587930112628" duration="933000" />
     </task>
     <servers />
   </component>
