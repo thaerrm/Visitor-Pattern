@@ -5,21 +5,25 @@ import Interfaces.Visiting;
 public class Patient implements Visiting  {
      {
         private String name;
-        private int gradeLevel;
+        private int painLevel;
 
-        public Patient(String name, int gradeLevel) {
+        public Patient(String name, int painLevel)
+         {
             this.name = name;
-            this.gradeLevel = gradeLevel;
+            this.painLevel = painLevel;
         }
-
-        public String getName() {
+            //get methods for their name and pain scale
+        public String getName()
+        {
             return name;
         }
 
-         public int getGradeLevel() {
-         return gradeLevel;
+         public int getPainLevel()
+     {
+         return painLevel;
      }
-         public void accept(Visitor visitor) {
+         public void accept(Visitor visitor)
+         {
          visitor.visit(this);
     }
 }
