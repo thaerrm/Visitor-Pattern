@@ -2,10 +2,9 @@ package Interfaces;
 
 import Visiting.*;
 
-
 public interface Visitor
 {
-    public String visit(Nurse nurse);
-    public String visit(Doctor doctor);
+    public void visit(Nurse nurse);
+    public void visit(Doctor doctor);
 
 }

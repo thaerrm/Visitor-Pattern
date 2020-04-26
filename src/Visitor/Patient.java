@@ -18,7 +18,7 @@ public class Patient implements Visitor {
         return name;
     }
     //overridden redefining of method
-    public String visit(Nurse nurse) {
+    public void visit(Nurse nurse) {
         String nurseReport = "Patient '" + this.getName() + "' is getting a checkup by Nurse '"
                 + nurse.getName()
                 + "' and their health was found to be in  '"
@@ -26,10 +26,9 @@ public class Patient implements Visitor {
 
         System.out.println(nurseReport);
 
-        return nurseReport;
     }
 
-    public String visit(Doctor doctor) {
+    public void visit(Doctor doctor) {
         String doctorReport = " Patient " + this.getName() + " is getting a checkup by doctor "
                 + doctor.getName()
                 + " and found health is in "
@@ -37,7 +36,6 @@ public class Patient implements Visitor {
 
         System.out.println(doctorReport);
 
-        return doctorReport;
     }
 
 }
