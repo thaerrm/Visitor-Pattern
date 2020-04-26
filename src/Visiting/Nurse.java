@@ -1,32 +1,35 @@
 package Visiting;//visiting nurse
 
-import interfaces.Visiting;
-import interfaces.Visitor;
+import Interfaces.Visiting;
+import Interfaces.Visitor;
 
 public class Nurse implements Visiting {
 
     private String name;
-    private String experienceYears;
+    private String experience;
 
-    public Nurse(String name, String healthStatus) {
+    public Nurse(String name, String experience) {
         this.name = name;
-        this.healthStatus = healthStatus;
+        this.experience = experience;
     }
 
     // getter methods
     public String getName()
+
     {
         return name;
     }
 
-    public String getHealthStatus()
+    public String getExperience()
+
     {
-        return healthStatus;
+        return experience;
     }
 
 
-    // Method accepts a visitor to visit the teacher
-    public void accept(Visitor visitor) {
+
+    public void accept(Visitor visitor)
+    {
         visitor.visit(this);
     }
 
