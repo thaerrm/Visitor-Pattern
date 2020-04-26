@@ -1,6 +1,7 @@
 package Visitor;// This class sets up the properties and the visit methods of the visitor nurse
 
 import Interfaces.Visitor;
+import Visiting.*;
 
 public class Patient implements Visitor {
 
@@ -10,33 +11,33 @@ public class Patient implements Visitor {
         this.name = name;
     }
 
-    // getter method
+    // getter
     public String getName()
+
     {
         return name;
     }
-
-    // visit method can be overridden for various visitable subjects
+    //overridden redefining of method
     public String visit(Nurse nurse) {
-        String studentReport = "Nurse '" + this.getName() + "' did the checkup of the student '"
-                + student.getName()
-                + "' and found health is in '"
-                + student.getHealthStatus() + "' condition \n";
+        String nurseReport = "Patient '" + this.getName() + "' is getting a checkup by Nurse '"
+                + nurse.getName()
+                + "' and their health was found to be in  '"
+                + nurse.getCheckup() + " condition. Awaiting Doctor.";
 
-        System.out.println(studentReport);
+        System.out.println(nurseReport);
 
-        return studentReport;
+        return nurseReport;
     }
 
-    public String visit(Teacher teacher) {
-        String teacherReport = "Nurse '" + this.getName() + "' did the checkup of the teacher '"
-                + teacher.getName()
-                + "' and found health is in '"
-                + teacher.getHealthStatus() + "' condition \n";
+    public String visit(Doctor doctor) {
+        String doctorReport = " Patient " + this.getName() + " is getting a checkup by doctor "
+                + doctor.getName()
+                + " and found health is in "
+                + doctor.getCheckup() + " condition ";
 
-        System.out.println(teacherReport);
+        System.out.println(doctorReport);
 
-        return teacherReport;
+        return doctorReport;
     }
 
 }

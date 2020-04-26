@@ -6,29 +6,32 @@ import Interfaces.Visitor;
 public class Doctor implements Visiting {
 
         private String name;
-        private String experience;
+        private String checkup;
 
-        public Doctor(String name, String experience) {
+        public Doctor(String name, String checkup) {
             this.name = name;
-            this.experience = experience;
+            this.checkup = checkup;
         }
 
         // getter methods
         public String getName()
 
+
         {
             return name;
         }
 
-        public String getExperience()
+        public String getCheckup()
+
 
         {
-            return experience;
+            return checkup;
         }
 
 
 
         public void accept(Visitor visitor)
+
         {
             visitor.visit(this);
         }
