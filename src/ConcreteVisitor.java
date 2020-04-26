@@ -1,3 +1,5 @@
+import Interfaces.Visitor;
+
 public class ConcreteVisitor implements Visitor {
 
     public void visitCollection(Collection collection) {

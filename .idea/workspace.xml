@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7df5ca4b-4ac4-4649-b4e4-3d7f0f75c69f" name="Default Changelist" comment="" />
+    <list default="true" id="7df5ca4b-4ac4-4649-b4e4-3d7f0f75c69f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ConcreteVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcreteVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Element.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interfaces/Visiting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FloatElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FloatElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VisitFloat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VisitFloat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VisitString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VisitString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Visitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interfaces/Visitor.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,11 +51,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587928315617</updated>
-      <workItem from="1587928317148" duration="1020000" />
+      <workItem from="1587928317148" duration="1538000" />
+      <workItem from="1587930112628" duration="439000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="494" y="323" width="471" height="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1587930527710">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state x="494" y="323" width="471" height="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1440.823@0.23.1440.823" timestamp="1587930527710" />
+    <state x="384" y="268" key="com.intellij.ide.util.TipDialog" timestamp="1587930117953">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state x="384" y="268" key="com.intellij.ide.util.TipDialog/0.23.1440.823@0.23.1440.823" timestamp="1587930117953" />
   </component>
 </project>

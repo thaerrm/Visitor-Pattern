@@ -1,3 +1,5 @@
+import Interfaces.Visitor;
+
 public class FloatElement implements Element {
     public class FloatElement implements Element {
         private Float value;
