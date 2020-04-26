@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7df5ca4b-4ac4-4649-b4e4-3d7f0f75c69f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/scratch.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interfaces/Visitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interfaces/Visitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VisitString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Visiting/ConcreteVisitor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Visiting/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Visiting/Doctor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Visiting/Nurse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Visiting/Nurse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Visitor/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Visitor/Patient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +36,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GitIgnore" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="XML&#10;GitIgnore" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -67,6 +62,7 @@
       <workItem from="1587930112628" duration="1739000" />
       <workItem from="1587932717421" duration="1279000" />
       <workItem from="1587934528879" duration="1679000" />
+      <workItem from="1587936337689" duration="246000" />
     </task>
     <servers />
   </component>
@@ -79,10 +75,10 @@
     </state>
     <state x="494" y="323" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1440.822@0.23.1440.822" timestamp="1587934387828" />
     <state x="494" y="323" width="471" height="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1440.823@0.23.1440.823" timestamp="1587931788823" />
-    <state x="384" y="268" key="com.intellij.ide.util.TipDialog" timestamp="1587934548777">
+    <state x="384" y="268" key="com.intellij.ide.util.TipDialog" timestamp="1587936336325">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state x="384" y="268" key="com.intellij.ide.util.TipDialog/0.23.1440.822@0.23.1440.822" timestamp="1587934548777" />
+    <state x="384" y="268" key="com.intellij.ide.util.TipDialog/0.23.1440.822@0.23.1440.822" timestamp="1587936336325" />
     <state x="384" y="268" key="com.intellij.ide.util.TipDialog/0.23.1440.823@0.23.1440.823" timestamp="1587930117953" />
   </component>
 </project>
