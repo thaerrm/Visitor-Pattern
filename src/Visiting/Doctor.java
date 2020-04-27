@@ -11,6 +11,7 @@ public class Doctor implements Visiting {
         public Doctor(String name, String checkup) {
             this.name = name;
             this.checkup = checkup;
+            this
         }
 
         // getter methods
